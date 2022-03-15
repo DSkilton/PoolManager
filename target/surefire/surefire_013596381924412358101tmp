@@ -1,0 +1,8 @@
+#surefire_0
+#Tue Mar 15 20:03:03 GMT 2022
+basedir=C\:\\Users\\MC03353\\OneDrive - Middlesbrough College\\Desktop\\Java\\PoolCalculator
+test=com.mycompany.poolcalculator.PoolCalculatorTest
+file.encoding=UTF-8
+user.dir=C\:\\Users\\MC03353\\OneDrive - Middlesbrough College\\Desktop\\Java\\PoolCalculator
+maven.ext.class.path=C\:\\Program Files\\NetBeans-13\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar
+localRepository=C\:\\Users\\MC03353\\.m2\\repository

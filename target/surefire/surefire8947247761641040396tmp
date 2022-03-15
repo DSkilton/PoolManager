@@ -1,0 +1,29 @@
+#surefire
+#Tue Mar 15 20:03:03 GMT 2022
+testSuiteDefinitionTestSourceDirectory=C\:\\Users\\MC03353\\OneDrive - Middlesbrough College\\Desktop\\Java\\PoolCalculator\\src\\test\\java
+classPathUrl.4=C\:\\Users\\MC03353\\.m2\\repository\\org\\opentest4j\\opentest4j\\1.2.0\\opentest4j-1.2.0.jar
+classPathUrl.5=C\:\\Users\\MC03353\\.m2\\repository\\org\\junit\\platform\\junit-platform-commons\\1.6.0\\junit-platform-commons-1.6.0.jar
+runOrder=filesystem
+classPathUrl.6=C\:\\Users\\MC03353\\.m2\\repository\\org\\junit\\jupiter\\junit-jupiter-params\\5.6.0\\junit-jupiter-params-5.6.0.jar
+classPathUrl.7=C\:\\Users\\MC03353\\.m2\\repository\\org\\junit\\jupiter\\junit-jupiter-engine\\5.6.0\\junit-jupiter-engine-5.6.0.jar
+includes0=**/com/mycompany/poolcalculator/PoolCalculatorTest.java
+classPathUrl.8=C\:\\Users\\MC03353\\.m2\\repository\\org\\junit\\platform\\junit-platform-engine\\1.6.0\\junit-platform-engine-1.6.0.jar
+reportsDirectory=C\:\\Users\\MC03353\\OneDrive - Middlesbrough College\\Desktop\\Java\\PoolCalculator\\target\\surefire-reports
+tc.0=com.mycompany.poolcalculator.PoolCalculatorTest
+surefireClassPathUrl.0=C\:\\Users\\MC03353\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-junit3\\2.12.4\\surefire-junit3-2.12.4.jar
+classPathUrl.0=C\:\\Users\\MC03353\\OneDrive - Middlesbrough College\\Desktop\\Java\\PoolCalculator\\target\\test-classes
+classPathUrl.1=C\:\\Users\\MC03353\\OneDrive - Middlesbrough College\\Desktop\\Java\\PoolCalculator\\target\\classes
+classPathUrl.2=C\:\\Users\\MC03353\\.m2\\repository\\org\\junit\\jupiter\\junit-jupiter-api\\5.6.0\\junit-jupiter-api-5.6.0.jar
+requestedTest=com.mycompany.poolcalculator.PoolCalculatorTest,
+classPathUrl.3=C\:\\Users\\MC03353\\.m2\\repository\\org\\apiguardian\\apiguardian-api\\1.1.0\\apiguardian-api-1.1.0.jar
+testClassesDirectory=C\:\\Users\\MC03353\\OneDrive - Middlesbrough College\\Desktop\\Java\\PoolCalculator\\target\\test-classes
+useManifestOnlyJar=true
+specificTest0=**/com/mycompany/poolcalculator/PoolCalculatorTest.java
+runStatisticsFile=C\:\\Users\\MC03353\\OneDrive - Middlesbrough College\\Desktop\\Java\\PoolCalculator\\.surefire-6BE4063C0621521C8E92DA849549BFE67052535F
+providerConfiguration=org.apache.maven.surefire.junit.JUnit3Provider
+failIfNoTests=true
+isTrimStackTrace=true
+surefireClassPathUrl.1=C\:\\Users\\MC03353\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-api\\2.12.4\\surefire-api-2.12.4.jar
+enableAssertions=true
+childDelegation=false
+useSystemClassLoader=true

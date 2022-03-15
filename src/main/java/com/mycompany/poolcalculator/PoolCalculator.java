@@ -20,10 +20,14 @@ public class PoolCalculator {
     private static Scanner SC = new Scanner(System.in);
 
     public static void main(String[] args) {
+        PoolCalculator pc = new PoolCalculator();
+    }
+    
+    public PoolCalculator(){
         displayMenu();
     }
 
-    private static void displayMenu() {
+    private void displayMenu() {
         System.out.println("Welcome to Pool Calculator\n"); //backslash n is for new line
         getName();
 
@@ -53,28 +57,28 @@ public class PoolCalculator {
         }// end of while loop
     }// end of menuMethod
 
-    private static void getName() {
+    private void getName() {
         System.out.println("Please input your name");
         userName = SC.next();
         //add validation later to check correct input 
     }
 
-    private static void inputLength() {
+    private void inputLength() {
         System.out.println("Please enter length: ");
         length = Double.valueOf(SC.next());
     }
 
-    private static void inputWidth() {
+    private void inputWidth() {
         System.out.println("Please enter width: ");
         width = SC.nextDouble();
     }
 
-    private static void inputHeight() {
+    private void inputHeight() {
         System.out.println("Please enter depth: ");
         height = SC.nextDouble();
     }
 
-    private static void rectangleVolume() {
+    private void rectangleVolume() {
         inputLength();
         inputWidth();
         inputHeight();
@@ -82,22 +86,22 @@ public class PoolCalculator {
         rectangleInternalSurfaceArea();
     }
 
-    private static void rectangleInternalSurfaceArea() {
+    private void rectangleInternalSurfaceArea() {
         internalSurfaceArea = (2 * (length * width) + 2 * (width * depth) + (width * length));
         //printOutput();
         formattedOutput();
     }
 
-    private static void cylinderInternalSurfaceArea() {
+    private void cylinderInternalSurfaceArea() {
         System.out.println("Made it to cylinder area");
         displayMenu();
     }
 
-    private static void cylinderVolume() {
+    private void cylinderVolume() {
 
     }
 
-    private static void printOutput() {
+    private void printOutput() {
         printFirstAndLastLine();
         System.out.println("Pool Type: " + poolType);
         dimensions();
@@ -106,9 +110,9 @@ public class PoolCalculator {
         printFirstAndLastLine();
     }
 
-    private static void formattedOutput() {
+    private void formattedOutput() {
         String alignTwo = "| %10s %-34s | \r\n"; //padding between strings
-        String alignFour = "| %23s %-5s %6s %-6s | \r\n"; //padding between strings
+        String alignFour = "| %23s %-5s %6s %-7s | \r\n"; //padding between strings
         String alignSix = "| %10s %-5s %-6s %-4s %-4s %-7s | \r\n"; //different padding between strings
         String sFiller = ("|                                               | \n");
 
@@ -126,7 +130,7 @@ public class PoolCalculator {
         printFirstAndLastLine();
     }
 
-    private static void dimensions() {
+    private void dimensions() {
         if (poolType.equals("Rectangular")) {
             System.out.println("Length: " + length + " Width: " + width + " Height: " + height);
         } else if (poolType.equals("Cylindrical")) {
@@ -136,7 +140,7 @@ public class PoolCalculator {
         }
     }
 
-    private static void printFirstAndLastLine() {
+    private void printFirstAndLastLine() {
         System.out.format("+-----------------------------------------------+\n");
     }
 }
