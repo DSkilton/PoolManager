@@ -11,8 +11,8 @@ import java.util.Scanner;
  *
  * @author MC03353
  */
-public class Main {
-
+public class PoolCalculator {
+    
     private static final double PI = 3.14;
     private static double length, width, height, radius, depth, internalSurfaceArea, volume;
     private static String userName, poolType, dimensions;
